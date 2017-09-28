@@ -1,0 +1,11 @@
+body {background-color:red}
+
+.theItems{
+  color: green;
+  font-style: italic;
+}
+
+.theText{
+  display: inline;
+  font-size: 30px;
+}
