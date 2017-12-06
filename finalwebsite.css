@@ -1,0 +1,149 @@
+body{
+  background-color: white;
+}
+
+#container{
+  text-align: justify;
+}
+
+#wrapper{
+  background-color: white;
+}
+/*CSS for first HTML page*/
+/* For ALL HEADERS (A7A6A6)
+NAV BACKGROUND ON 2ND/3RD PGS (F7F7F7)
+SMALLER HEADERS/ADDITIONAL WRITING (D3D3D3)*/
+#header{
+font-family: georgia;
+background-color: white;
+background-position: center;
+height: 30px;
+text-align: center;
+font-size: 30px;
+color: #A7A6A6;
+}
+
+.statement{
+  font-family: georgia;
+  font-size: 16px;
+}
+
+#nav, #footer{
+  font-family: georgia;
+  color: black;
+  background-color: #D3DEDE;
+  border-width: thin;
+  border-style: double;
+  border-color: black;
+}
+
+ .unorderednav{
+   font-family: georgia;
+   background-color: white;
+   font-size: 18px;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+ }
+
+ .unorderednav li{
+   text-align: center;
+   display: inline;
+ }
+
+ unorderednav a{
+   display: inline;
+ }
+
+a: hover, a:active{
+  background-color: #D3D3D3;
+}
+
+ #content1, #content2, #content3{
+   font-family: georgia;
+   color: #212121;
+   background-color: #F7F7F7;
+   height: 250px;
+   font-size: 15px;
+   margin: auto;
+   width: 50%;
+   padding: 10px;
+   border: 3px solid black;
+ }
+
+ #theTime{
+   font-style: georgia;
+   font-size: 20px;
+   color: #black;
+   text-align: center;
+ }
+
+
+ /*CSS for second HTML page*/
+ #header2{
+ font-family: georgia;
+ background-color: white;
+ background-position: center;
+ height: 30px;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 25px;
+ color: #A7A6A6;
+ }
+
+ .statement2{
+   font-family: georgia;
+   font-size: 20px;
+   font-style: oblique;
+ }
+
+ #page2content, #page2content1, #page2content2{
+   font-family: georgia;
+   height: 350px;
+   font-size: 16px;
+   color: black;
+   margin: auto;
+   width: 80%;
+   padding: 10px;
+ }
+ .header2{
+   font-family: georgia;
+   font-size: 20px;
+   color: black;
+ }
+
+.foodOne{
+  height: 300px;
+  width: 20%;
+  border: 3px solid black;
+  display: inline-flex;
+}
+ .coffee{
+   position: absolute;
+   height: 300px;
+   width: 40%;
+ }
+
+ /*CSS for third HTML page*/
+
+#page3content, #page3content1, #page3content2, #page3content3, #page3content4, #page3content5{
+  font-family: georgia;
+  background-color: #F7F7F7;
+  height: 200px;
+  font-size: 15px;
+  color: black;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  border: 3px solid black;
+display: inline-flex;
+}
+
+.header2, .paragraph{
+  font-family: georgia;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
